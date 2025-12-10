@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Personalizado para tu Negocio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <!-- 
+                    INSTRUCCIÓN: Reemplaza el emoji ⚡ con tu imagen del logo
+                    Opción 1: Descomenta la línea de abajo y coloca la ruta de tu imagen
+                    <img src="ruta/a/tu/logo-codexpress.png" alt="CodeXpress Logo" class="logo-image">
+                    
+                    Opción 2: Si quieres mantener el texto y agregar la imagen, usa:
+                    <img src="ruta/a/tu/logo-codexpress.png" alt="CodeXpress" class="logo-image">
+                    
+                    Para usar SOLO la imagen del logo completo, reemplaza todo el contenido del div.logo con:
+                    <img src="ruta/a/tu/logo-codexpress.png" alt="CodeXpress" style="height: 40px; width: auto;">
+                -->
+                <span><img src="recursos/logo.jpg" alt="CodeXpress Logo" class="logo-image"></span> <span class="logo-code">Code</span><span class="logo-xpress">Xpress</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>
+                Impulsa tu Negocio con<br>
+                <span class="gradient-text">Software Personalizado</span>
+            </h1>
+            <p>Soluciones tecnológicas de vanguardia para restaurantes, gimnasios, hoteles, todo tipo de negocios y proyectos universitarios</p>
+            <div class="cta-buttons">
+                <button class="cta-primary" onclick="document.getElementById('contacto').scrollIntoView({behavior: 'smooth'})">
+                    Solicita tu Cotización Gratuita
+                </button>
+                <button class="cta-secondary" onclick="document.getElementById('servicios').scrollIntoView({behavior: 'smooth'})">
+                    Explorar Servicios
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios" class="servicios">
+        <div class="section-header">
+            <div class="section-badge">✨ NUESTROS SERVICIOS</div>
+            <h2 class="section-title">Soluciones para Cada Industria</h2>
+            <p class="section-subtitle">Tecnología adaptada perfectamente a las necesidades únicas de tu negocio</p>
+        </div>
+        <div class="servicios-grid">
+            <div class="servicio-card">
+                <div class="servicio-icon">🍽️</div>
+                <h3>Restaurantes</h3>
+                <p>Sistema POS completo con gestión de mesas, inventario en tiempo real, integración de delivery y reportes analíticos para maximizar tus ventas.</p>
+            </div>
+            <div class="servicio-card">
+                <div class="servicio-icon">💪</div>
+                <h3>Gimnasios & Fitness</h3>
+                <p>Plataforma integral con control de membresías, acceso biométrico, planes de entrenamiento personalizados y seguimiento de progreso.</p>
+            </div>
+            <div class="servicio-card">
+                <div class="servicio-icon">🏨</div>
+                <h3>Hoteles & Hospedaje</h3>
+                <p>Sistema completo de reservas online, check-in/out digital, gestión de habitaciones, facturación automática y programa de lealtad.</p>
+            </div>
+            <div class="servicio-card">
+                <div class="servicio-icon">🏪</div>
+                <h3>Retail & Comercio</h3>
+                <p>Punto de venta avanzado, control de inventario multi-sucursal, programa de fidelización y análisis predictivo de ventas.</p>
+            </div>
+            <div class="servicio-card">
+                <div class="servicio-icon">🏥</div>
+                <h3>Clínicas & Salud</h3>
+                <p>Gestión de citas médicas, historia clínica electrónica, facturación automática, recordatorios y telemedicina integrada.</p>
+            </div>
+            <div class="servicio-card">
+                <div class="servicio-icon">🎓</div>
+                <h3>Trabajos Universitarios</h3>
+                <p>CRUD funcionales, páginas web, APIs, aplicativos móviles y más. Soluciones completas para tus proyectos académicos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="features">
+        <div class="section-header">
+            <div class="section-badge">💎 VENTAJAS COMPETITIVAS</div>
+            <h2 class="section-title">¿Por Qué Somos Diferentes?</h2>
+            <p class="section-subtitle">La combinación perfecta de tecnología, experiencia y soporte personalizado</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">🎯</div>
+                <div class="feature-content">
+                    <h4>100% Personalizado</h4>
+                    <p>Cada solución diseñada específicamente para tu negocio, sin limitaciones de plantillas genéricas.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-content">
+                    <h4>Implementación Express</h4>
+                    <p>Tu sistema operativo en tiempo récord sin interrumpir tus operaciones diarias.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🛡️</div>
+                <div class="feature-content">
+                    <h4>Seguridad Garantizada</h4>
+                    <p>Protección de datos de nivel empresarial con backups automáticos y encriptación.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">📱</div>
+                <div class="feature-content">
+                    <h4>Multi-Plataforma</h4>
+                    <p>Accede desde cualquier dispositivo: computadora, tablet o smartphone.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🚀</div>
+                <div class="feature-content">
+                    <h4>Escalable</h4>
+                    <p>Crece a tu ritmo, nuestras soluciones evolucionan con tu negocio.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💬</div>
+                <div class="feature-content">
+                    <h4>Soporte 24/7</h4>
+                    <p>Equipo de expertos disponible cuando lo necesites, sin costos ocultos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proceso" class="proceso">
+        <div class="section-header">
+            <div class="section-badge">📋 METODOLOGÍA</div>
+            <h2 class="section-title">Nuestro Proceso</h2>
+            <p class="section-subtitle">5 pasos simples hacia la transformación digital de tu negocio</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Consultoría Inicial</h3>
+                    <p>Analizamos a fondo tu negocio, identificamos oportunidades y diseñamos una estrategia digital personalizada.</p>
+                </div>
+                <div class="timeline-number">1</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Propuesta & Planificación</h3>
+                    <p>Presentamos una solución detallada con alcance, cronograma y presupuesto transparente.</p>
+                </div>
+                <div class="timeline-number">2</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Desarrollo Ágil</h3>
+                    <p>Construimos tu software con metodología ágil, manteniendo comunicación constante y entregas incrementales.</p>
+                </div>
+                <div class="timeline-number">3</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Implementación & Capacitación</h3>
+                    <p>Instalamos el sistema y capacitamos a tu equipo para garantizar una adopción exitosa.</p>
+                </div>
+                <div class="timeline-number">4</div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Soporte Continuo</h3>
+                    <p>Acompañamiento permanente, actualizaciones regulares y optimización basada en datos reales de uso.</p>
+                </div>
+                <div class="timeline-number">5</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="section-header">
+            <div class="section-badge">📬 CONTÁCTANOS</div>
+            <h2 class="section-title">Conecta con CodeXpress</h2>
+            <p class="section-subtitle">Estamos listos para transformar tu idea en realidad</p>
+        </div>
+        <div class="contacto-container">
+            <div class="connect-section">
+                <h3>Conéctate con Nosotros</h3>
+                <div class="social-grid">
+                    <a href="#" class="social-card">
+                        <img src="recursos/face1.png" alt="Facebook" class="social-icon-img">
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-card">
+                        <img src="recursos/xicon.png" alt="Twitter" class="social-icon-img">
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-card">
+                        <img src="recursos/ig1.png" alt="Instagram" class="social-icon-img">
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-card">
+                        <img src="recursos/email1.jpg" alt="Email" class="social-icon-img">
+                        <span>Email</span>
+                    </a>
+                    <a href="#" class="social-card">
+                        <img src="recursos/whats.png" alt="WhatsApp" class="social-icon-img">
+                        <span>WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="font-size: 1.2rem; color: white; margin-bottom: 1rem;">⚡ <strong><span style="color: white;">Code</span><span style="color: #fbbf24;">Xpress</span></strong></p>
+        <p>Soluciones rápidas, código de calidad</p>
+        <p style="margin-top: 1rem;">📧 contacto@codexpress.com | 📱 WhatsApp: +57 XXX XXX XXXX</p>
+        <p style="margin-top: 1.5rem; font-size: 0.9rem;">&copy; 2024 CodeXpress. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!menuToggle.contains(e.target) && !navLinks.contains(e.target)) {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            }
+        });
+        
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Form submission (código eliminado - no hay formulario)
+        
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards
+        document.querySelectorAll('.servicio-card, .feature-item, .timeline-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s ease-out';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
